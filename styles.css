@@ -1,3 +1,17 @@
 body {
+background-color: var(--minfargevariabel);
+font-style: var(--minfontkursiv);
+font-family: var(--minfontstil);
+}
+
+#div1 {
+width: 100vw;
 display: flex;
+justify-content: flex-end;
+}
+
+:root {
+--minfargevariabel: blanchedalmond;
+--minfontkursiv: italic;
+--minfontstil: Georgia, Times, 'Times New Roman', serif;
 }
