@@ -33,3 +33,9 @@ font-style:normal;
 font-size:x-large;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.bilder {
+width: 100%;
+display: flex;
+justify-content:space-around
+}
