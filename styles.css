@@ -15,3 +15,20 @@ justify-content: flex-end;
 --minfontkursiv: italic;
 --minfontstil: Georgia, Times, 'Times New Roman', serif;
 }
+
+.cards {
+background-color:brown;
+color: white;
+font-family:Verdana, Geneva, Tahoma, sans-serif; 
+font-style: oblique;
+border-radius: 5px;
+box-shadow: 0 0 10px rgb(255, 255, 0);
+}
+
+.cards:hover {
+background-color:blueviolet;
+color:aqua;
+font-style:normal;
+font-size:x-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
