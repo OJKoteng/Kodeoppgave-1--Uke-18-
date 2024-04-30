@@ -39,3 +39,9 @@ width: 100%;
 display: flex;
 justify-content:space-around
 }
+
+@media (max-width: 768px) {
+    .bilder .cards {
+        flex-direction: column; 
+    }
+}
